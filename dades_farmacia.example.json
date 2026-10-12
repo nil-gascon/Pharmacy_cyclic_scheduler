@@ -1,0 +1,160 @@
+{
+    "treballadors": {
+        "J": {
+            "hores": 40.0,
+            "llicenciat": true,
+            "extres": true,
+            "actiu": true,
+            "garantir_cap_setmana": false,
+            "patro_semanal": {
+                "Dilluns": "-",
+                "Dimarts": "-",
+                "Dimecres": "-",
+                "Dijous": "-",
+                "Divendres": "-",
+                "Dissabte": "-",
+                "Diumenge": "-"
+            }
+        },
+        "S": {
+            "hores": 4.0,
+            "llicenciat": false,
+            "extres": true,
+            "actiu": true,
+            "garantir_cap_setmana": false,
+            "patro_semanal": {
+                "Dilluns": "-",
+                "Dimarts": "-",
+                "Dimecres": "-",
+                "Dijous": "-",
+                "Divendres": "-",
+                "Dissabte": "Només aquest dia",
+                "Diumenge": "-"
+            }
+        },
+        "C": {
+            "hores": 10.0,
+            "llicenciat": false,
+            "extres": true,
+            "actiu": true,
+            "garantir_cap_setmana": true,
+            "patro_semanal": {
+                "Dilluns": "-",
+                "Dimarts": "-",
+                "Dimecres": "-",
+                "Dijous": "-",
+                "Divendres": "-",
+                "Dissabte": "-",
+                "Diumenge": "-"
+            }
+        },
+        "M": {
+            "hores": 30.0,
+            "llicenciat": false,
+            "extres": true,
+            "actiu": true,
+            "garantir_cap_setmana": true,
+            "patro_semanal": {
+                "Dilluns": "-",
+                "Dimarts": "-",
+                "Dimecres": "-",
+                "Dijous": "-",
+                "Divendres": "-",
+                "Dissabte": "-",
+                "Diumenge": "-"
+            }
+        },
+        "Mi": {
+            "hores": 25.0,
+            "llicenciat": true,
+            "extres": true,
+            "actiu": true,
+            "garantir_cap_setmana": true,
+            "patro_semanal": {
+                "Dilluns": "Només Matí",
+                "Dimarts": "Només Matí",
+                "Dimecres": "Només Matí",
+                "Dijous": "Només Matí",
+                "Divendres": "Només Matí",
+                "Dissabte": "-",
+                "Diumenge": "-"
+            }
+        },
+        "L": {
+            "hores": 40.0,
+            "llicenciat": false,
+            "extres": true,
+            "actiu": true,
+            "garantir_cap_setmana": true,
+            "patro_semanal": {
+                "Dilluns": "-",
+                "Dimarts": "-",
+                "Dimecres": "-",
+                "Dijous": "-",
+                "Divendres": "-",
+                "Dissabte": "-",
+                "Diumenge": "-"
+            }
+        },
+        "Ma": {
+            "hores": 40.0,
+            "llicenciat": false,
+            "extres": false,
+            "actiu": false,
+            "garantir_cap_setmana": true,
+            "patro_semanal": {
+                "Dilluns": "Preferentment Matí",
+                "Dimarts": "Preferentment Matí",
+                "Dimecres": "Preferentment Matí",
+                "Dijous": "Preferentment Matí",
+                "Divendres": "Preferentment Matí",
+                "Dissabte": "-",
+                "Diumenge": "-"
+            }
+        }
+    },
+    "config": {
+        "min_personal_setmana": 2,
+        "max_personal_setmana": 3,
+        "min_personal_cap_setmana": 2,
+        "max_personal_cap_setmana": 3,
+        "min_llicenciats": 1,
+        "min_llicenciats_cap_setmana": 0,
+        "num_setmanes_cicle": 2,
+        "inici_canvi": "13:30",
+        "fi_canvi": "14:30",
+        "durada_min_torn": 4.0,
+        "durada_max_torn": 8.0,
+        "mida_font": 13
+    },
+    "horaris": {
+        "Dilluns": {
+            "inici": "08:30",
+            "fi": "21:00"
+        },
+        "Dimarts": {
+            "inici": "08:30",
+            "fi": "21:00"
+        },
+        "Dimecres": {
+            "inici": "08:30",
+            "fi": "21:00"
+        },
+        "Dijous": {
+            "inici": "08:30",
+            "fi": "21:00"
+        },
+        "Divendres": {
+            "inici": "08:30",
+            "fi": "21:00"
+        },
+        "Dissabte": {
+            "inici": "09:00",
+            "fi": "15:00"
+        },
+        "Diumenge": {
+            "inici": "",
+            "fi": ""
+        }
+    }
+}
